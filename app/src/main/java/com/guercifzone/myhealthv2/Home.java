@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Home extends AppCompatActivity {
-    private final String JSON_URL ="https://world.openfoodfacts.org/api/v0/product/3274080005003.json";
+    private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/refs/heads/main/MyHealth/test.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<ProductData> lsArzone;

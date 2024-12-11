@@ -42,6 +42,7 @@ dependencies {
     implementation ("com.google.firebase:firebase-crashlytics-buildtools:3.0.2")
     implementation ("com.android.volley:volley:1.2.1")
 
+
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)

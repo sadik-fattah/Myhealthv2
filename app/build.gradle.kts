@@ -37,11 +37,12 @@ dependencies {
     implementation ("androidx.navigation:navigation-ui:2.7.7")
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.recyclerview)
     annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     implementation ("com.google.firebase:firebase-crashlytics-buildtools:3.0.2")
     implementation ("com.android.volley:volley:1.2.1")
-
+ implementation("com.google.code.gson:gson:2.8.9")
 
     implementation(libs.appcompat)
     implementation(libs.material)
